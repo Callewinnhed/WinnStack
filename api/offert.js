@@ -1,6 +1,6 @@
 // Tar emot offertformuläret och skickar det vidare som mejl via Resend.
 // Kräver miljövariabeln RESEND_API_KEY i Vercel. OFFERT_TO och OFFERT_FROM är valfria.
-const TO = process.env.OFFERT_TO || 'c.winnhed@hotmail.com';
+const TO = process.env.OFFERT_TO || 'calle@winnstack.com';
 const FROM = process.env.OFFERT_FROM || 'WinnStack <offert@winnstack.com>';
 
 function clean(value, max) {
